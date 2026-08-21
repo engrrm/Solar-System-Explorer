@@ -5,6 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar System Explorer - Moons</title>
     <link rel="stylesheet" href="../CSS FILES/style.css">
+    
+    <!-- CUSTOM BANNER STYLES FOR GROUP 2 - IT 101 -->
+    <style>
+        .creative-group-card {
+            position: relative;
+            max-width: 500px;
+            margin: 20px auto 30px auto;
+            padding: 35px 25px;
+            text-align: center;
+            background: rgba(13, 27, 42, 0.85);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 16px;
+            border: 1px solid rgba(56, 189, 248, 0.4);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 
+                        0 0 20px rgba(56, 189, 248, 0.2);
+            overflow: hidden;
+        }
+
+        .creative-group-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 15%;
+            width: 70%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #38bdf8, transparent);
+        }
+
+        .card-tag {
+            display: inline-block;
+            padding: 4px 14px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #38bdf8;
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .card-title {
+            font-size: 2.8rem;
+            font-weight: 900;
+            letter-spacing: 4px;
+            color: #ffffff;
+            margin: 5px 0;
+            text-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+            text-transform: uppercase;
+        }
+
+        .card-divider {
+            width: 80px;
+            height: 3px;
+            margin: 15px auto;
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            border-radius: 2px;
+            box-shadow: 0 0 8px #38bdf8;
+        }
+
+        .card-subtitle {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: #e2e8f0;
+            margin: 0;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+        }
+    </style>
 </head>
 <body>
 
@@ -23,6 +94,14 @@
     </header>
 
     <main>
+        <!-- CREATIVE GROUP 2 & IT 101 BANNER CARD -->
+        <div class="creative-group-card">
+            <span class="card-tag">WEB DEVELOPMENT SHOWCASE</span>
+            <h2 class="card-title">GROUP #2</h2>
+            <div class="card-divider"></div>
+            <h3 class="card-subtitle">IT 101</h3>
+        </div>
+
         <!-- MISSION SECTION -->
         <div class="box">
             <h2>Our Mission</h2>
